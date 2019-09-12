@@ -1,0 +1,17 @@
+{{ define "main" }}
+	{{ if not .Site.Params.about.hide }}
+		{{ partial "about" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.photography.hide }}
+		{{ partial "photography" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.filmmaking.hide }}
+		{{ partial "filmmaking" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.contact.hide }}
+		{{ partial "contact" . }}
+	{{ end }}
+{{ end }}

@@ -1,0 +1,7 @@
+
+<section>
+	<header class="major">
+		{{ with .Site.Params.photography.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	</header>
+	{{ with .Site.Params.photography.content }}<p>{{ . | markdownify }}</p>{{ end }}
+</section>

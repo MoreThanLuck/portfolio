@@ -1,0 +1,97 @@
+baseurl = "https://ianjbattaglia.co/"
+languageCode = "en-us"
+title = "Ian J. Battaglia"
+theme = "hugo-strata-theme"
+disqusShortname = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Ian J. Battaglia"
+	description = "Personal portfolio site of Ian J. Battaglia"
+
+	# Format dates with Go's time formatting
+	date_format = "2019-07-18"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**Hello, I'm Ian—**<br> a writer, photographer<br> filmmaker, and philomath,<br> based in Chicago."
+		# The icons will be shown if you enter your username
+		twitter = "ianjbattaglia"
+		github = "MoreThanLuck"
+		gitlab = ""
+		dribbble = ""
+		facebook = ""
+		googleplus = ""
+		flickr = ""
+		linkedin = ""
+
+		copyright = [
+			"&copy; Ian J. Battaglia",
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Writing"
+		content = "I'm a Chicago-based emerging writer of fiction, essays and reviews, and screenplays. For screenwriting, I was selected to write the official screenplay adaptation of Nathaniel Rich's short story, 'Hermie'. I have pieces published or forthcoming in the Kenyon Review, Electric Literature, and The Chicago Review of Books. I am working on a novel manuscript."
+
+    [params.photography]
+		hide  = false
+		title = "Photography"
+		content = "I've been shooting photography for over a decade. After making my start shooting digital photography as a hobby, I began working professionally as a photographer specializing in fine art photography in the street photography genre, and with headshot and portrait photography. I have experience shooting studio work as well as in the field, with every major camera system, naturally and artificially lit, as well as 35mm, 6x7 medium format, and 4x5 & 8x10 large format film photography."
+
+    [params.filmmaking]
+		hide  = false
+		title = "Filmmaking"
+		content = "As a filmmaker, I attended DePaul University's School of Cinematic Arts, where I received a BA in Cinema Production. My focus was on lighting design. Since graduating, I have worked as director, cinematographer, editor, gaffer and more on television shows like 'Empire' and 'The Chi', on independent feature films, short films, commercials for brands like Fiat-Chrysler, Cox Cable, and Diner's Club."
+
+
+	[params.contact]
+		hide  = false
+		title = "Contact"
+		content = "Want to work together, share an interest, or just chat? Contact me below:"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "ian@monochromatic.co"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Writing "
+	url  = "https://mnchrm.co"
+	weight = 10
+
+[[menu.main]]
+	name = "Photography "
+	url  = "https://www.monochromatic.co"
+	weight = 0
